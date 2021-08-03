@@ -1,0 +1,25 @@
+{
+  "name": "r34-types",
+  "version": "1.0.1",
+  "description": "Types for both frontend and backend applications using kurozenzen's R34 environment.",
+  "main": "index.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurozenzen/r34-types.git"
+  },
+  "keywords": [
+    "types",
+    "typescript",
+    "r34",
+    "rule34",
+    "api",
+    "rest"
+  ],
+  "author": "kurozenzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurozenzen/r34-types/issues"
+  },
+  "homepage": "https://github.com/kurozenzen/r34-types#readme"
+}
