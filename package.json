@@ -1,9 +1,12 @@
 {
   "name": "r34-types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Types for both frontend and backend applications using kurozenzen's R34 environment.",
-  "main": "index.ts",
-  "scripts": {},
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kurozenzen/r34-types.git"
@@ -21,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/kurozenzen/r34-types/issues"
   },
-  "homepage": "https://github.com/kurozenzen/r34-types#readme"
+  "homepage": "https://github.com/kurozenzen/r34-types#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
