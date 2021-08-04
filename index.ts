@@ -24,4 +24,3 @@ export { TagsSort } from "./src/TagsSort";
 export { TagType } from "./src/TagType";
 export { Theme } from "./src/Theme";
 export { User } from "./src/User";
-export { FlexibleTag } from "./src/FlexibleTag";

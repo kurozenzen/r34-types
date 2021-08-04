@@ -1,3 +1,6 @@
 import { Tag } from "./Tag";
 
-export type AliasTag = Pick<Tag, "name" | "count">;
+export type AliasTag = {
+  name: string;
+  count: number;
+};

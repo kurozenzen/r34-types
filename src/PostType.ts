@@ -1,1 +1,1 @@
-export type PostType = "image" | "video";
+export type PostType = "image" | "video" | "gif";

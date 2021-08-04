@@ -1,6 +1,7 @@
-import { PostRating } from "..";
+import { Comment } from "./Comment";
+import { PostRating } from "./PostRating";
 import { PostStatus } from "./PostStatus";
-import { PostType } from "../src/PostType";
+import { PostType } from "./PostType";
 
 export interface Post {
   change: number;
@@ -29,4 +30,5 @@ export interface Post {
   tags: string[];
   type: PostType;
   width: number;
+  comments?: Comment[];
 }

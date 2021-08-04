@@ -2,6 +2,6 @@ import { TagType } from "./TagType";
 
 export interface Tag {
   name: string;
-  count: number;
+  count?: number;
   types: TagType[];
 }

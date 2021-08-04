@@ -11,7 +11,6 @@ export interface Preferences {
   tagSuggestionsCount: number;
   resultsLayout: ResultsLayout;
   pageSize: number;
-  useCorsProxy: boolean;
   showMetadata: boolean;
   showComments: boolean;
   sort: PostsSort;

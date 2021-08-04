@@ -7,7 +7,6 @@ export type PreferenceKey =
   | "tagSuggestionsCount"
   | "resultsLayout"
   | "pageSize"
-  | "useCorsProxy"
   | "showMetadata"
   | "showComments"
   | "sort"
