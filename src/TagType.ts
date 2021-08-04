@@ -6,4 +6,5 @@ export type TagType =
   | "copyright"
   | "rating"
   | "source"
-  | "metadata";
+  | "metadata"
+  | "supertag";

@@ -1,0 +1,16 @@
+export type PreferenceKey =
+  | "rated"
+  | "ratedThreshold"
+  | "originals"
+  | "cookies"
+  | "preloadVideos"
+  | "tagSuggestionsCount"
+  | "resultsLayout"
+  | "pageSize"
+  | "useCorsProxy"
+  | "showMetadata"
+  | "showComments"
+  | "sort"
+  | "themeId"
+  | "autoPlay"
+  | "hideSeen";
