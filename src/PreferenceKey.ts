@@ -12,4 +12,5 @@ export type PreferenceKey =
   | "sort"
   | "themeId"
   | "autoPlay"
-  | "hideSeen";
+  | "hideSeen"
+  | "autoscrollDelay";
