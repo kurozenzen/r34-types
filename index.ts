@@ -22,5 +22,5 @@ export type { TagModifier } from "./src/TagModifier";
 export type { TagsResponse } from "./src/TagsResponse";
 export type { TagsSort } from "./src/TagsSort";
 export type { TagType } from "./src/TagType";
-export type { Theme } from "./src/Theme";
+export type { ThemeId } from "./src/ThemeId";
 export type { User } from "./src/User";
