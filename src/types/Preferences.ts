@@ -17,4 +17,5 @@ export interface Preferences {
   themeId: Theme;
   autoPlay: boolean;
   hideSeen: boolean;
+  showPostDetails: boolean;
 }
