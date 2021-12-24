@@ -5,3 +5,9 @@ export interface Tag {
   count?: number;
   types: TagType[];
 }
+
+export interface NiceTag {
+  name: string;
+  count: number;
+  types: TagType[];
+}

@@ -13,5 +13,4 @@ export type PreferenceKey =
   | "themeId"
   | "autoPlay"
   | "hideSeen"
-  | "autoscrollDelay"
-  | "showPostDetails";
+  | "autoscrollDelay";

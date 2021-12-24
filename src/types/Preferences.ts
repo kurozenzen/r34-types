@@ -1,6 +1,6 @@
 import { PostsSort } from "./PostsSort";
 import { ResultsLayout } from "./ResultsLayout";
-import { ThemeId } from "./ThemeId";
+import { Theme } from "./Theme";
 
 export interface Preferences {
   rated: boolean;
@@ -14,9 +14,7 @@ export interface Preferences {
   showMetadata: boolean;
   showComments: boolean;
   sort: PostsSort;
-  themeId: ThemeId;
+  themeId: Theme;
   autoPlay: boolean;
   hideSeen: boolean;
-  autoScrollDelay: boolean;
-  showPostDetails: boolean;
 }
