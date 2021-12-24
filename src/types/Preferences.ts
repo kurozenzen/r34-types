@@ -18,4 +18,5 @@ export interface Preferences {
   autoPlay: boolean;
   hideSeen: boolean;
   showPostDetails: boolean;
+  backends: string[];
 }

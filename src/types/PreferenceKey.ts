@@ -14,4 +14,5 @@ export type PreferenceKey =
   | "autoPlay"
   | "hideSeen"
   | "autoscrollDelay"
-  | "showPostDetails";
+  | "showPostDetails"
+  | "backends";
