@@ -39,6 +39,12 @@ export namespace api {
       score?: ScoreFilter;
       sort?: PostsSort;
     };
+    export type PostsLegacy = {
+      // TODO: Remove later
+      tags?: string;
+      limit?: number;
+      pid?: number;
+    };
     export type Aliases = {
       name: string;
     };
